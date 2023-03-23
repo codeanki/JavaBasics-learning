@@ -1,0 +1,23 @@
+/*
+Sample Input:
+principal: Take principal as input from user and type should be double
+rate: Take rate as input from user and type should be double
+time Take time as input from user and type should be double
+
+Sample Output:
+si : print si as the output
+*/
+
+import java.util.Scanner;
+public class SimpleInterest{
+  public static void main(String[] args){
+    Scanner s = new Scanner(System.in);
+    double principal = s.nextDouble();
+    double rate = s.nextDouble();
+    double time = s.nextDouble();
+    
+    double si = (principal * rate * time)/100.0;
+    
+    System.out.println("Simple Interest" + si):
+}
+}
