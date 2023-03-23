@@ -1,0 +1,26 @@
+/*
+Sample Input:
+The first line of input contains an integer x1
+The second line of input contains an integer y1
+The third line of input contains an integer x2
+The fourth line of input contains an integer y1
+
+Sample Output:
+The only line contains the output area
+*/
+
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    Scanner s = new Scanner(System.in);
+    int x1 = s.nextInt();
+    int y1 = s.nextInt();
+    int x2 = s.nextInt();
+    int y2 = s.nextInt();
+    
+    int length = (x2 - x1);
+    int breadth = (y2 - y1);
+    int area = length * breadth;
+    System.out.println(area);
+    }
+}
