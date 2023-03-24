@@ -1,0 +1,24 @@
+/*
+Sample Input:
+  3
+ -5
+  7
+  
+Sample Output:
+Positive
+Negative
+Positive
+*/
+
+
+public class Solution{
+    public static String PositiveOrNegative(int number){
+       if(number < 0){
+         return "Negative";
+       }else{
+         return "Positive";
+       }
+    }
+}
+  
+  
