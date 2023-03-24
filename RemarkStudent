@@ -1,0 +1,21 @@
+/*
+Sample Input:
+36
+78
+
+Sample Output:
+Below Average
+Distinction
+*/
+
+public class Solution{
+  public static String remarkStudent(int score){
+    if(score > 75 && score <= 100){
+       return "Distinction";
+    }else if(score > 50 && score <=75){
+       return "Average";
+    }else{
+       return "Below Average";
+    }
+}
+}
